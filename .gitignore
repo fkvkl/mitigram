@@ -1,1 +1,5 @@
 /pom.xml
+/configuration.properties
+/target
+.iml
+/main
