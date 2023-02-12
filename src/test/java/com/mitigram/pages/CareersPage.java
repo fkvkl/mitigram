@@ -36,5 +36,4 @@ public class CareersPage {
         Driver.get().findElement(By.xpath("//a[.='" + position + "']")).click();
         Driver.get().findElement(By.xpath("//a[.='" + position + "']/..//a[.='Apply for this position']")).click();
     }
-
 }

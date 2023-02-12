@@ -9,6 +9,7 @@ public class BrowserUtilities {
         Actions actions = new Actions(Driver.get());
         actions.moveToElement(element).perform();
     }
+    
     public static void waitFor(int seconds) {
         try {
             Thread.sleep(seconds * 1000);

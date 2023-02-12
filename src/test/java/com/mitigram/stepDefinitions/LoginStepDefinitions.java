@@ -15,7 +15,6 @@ import static org.junit.Assert.assertEquals;
 
 public class LoginStepDefinitions {
 
-
     @Given("User navigates to log in page")
     public void user_navigates_to_log_in_page() {
         HomePage homePage = new HomePage();
@@ -89,6 +88,4 @@ public class LoginStepDefinitions {
         String actual = Driver.get().getCurrentUrl();
         assertEquals(expected, actual);
     }
-
-
 }

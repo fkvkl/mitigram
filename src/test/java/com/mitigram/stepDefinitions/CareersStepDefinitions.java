@@ -7,7 +7,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebElement;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -54,5 +53,4 @@ public class CareersStepDefinitions {
     public void user_clicks_and_apply_for_this_position(String position) {
         new CareersPage().selectPosition_Apply(position);
     }
-
 }
